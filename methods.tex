@@ -12,6 +12,7 @@
 \usepackage{algpseudocode}
 \usepackage{graphicx}
 \usepackage{color}
+\usepackage{tikz}
 \author{My Name}
 \title{The Title}
 \begin{document}
@@ -43,7 +44,54 @@
 	All nodes exchange their local parameter with their neighboring nodes.
 	
 	{\color{purple} For the privacy mechanism, differentially private framework is proposed with sensitive data}
-	hello
+	
+	high-dimensional. 
+	
+	sparse solution.
+	
+%	\begin{tikzpicture}[sibling distance=10em,
+%  every node/.style = {shape=rectangle, rounded corners,
+%    draw, align=center,
+%    top color=white, bottom color=blue!20}]]
+%  \node {Sparse solution}
+%    child { node {single-line} }
+%    child { node {multi-line}
+%      child { node {aligned at}
+%        child { node {relation sign} }
+%        child { node {several places} }
+%        child { node {center} } }
+%      child { node {first left,\\centered,\\last right} } };
+%\end{tikzpicture}
+
+
+\begin{tikzpicture}[sibling distance=20em,
+  every node/.style = {shape=rectangle, rounded corners,
+    draw, align=center,
+    top color=white, bottom color=blue!20}]]
+  \node {Sparse solution}
+    child { node {truncated gradient} }
+    child { node {dual averaging algorithm}
+       } ;
+\end{tikzpicture}
+
+DOLA take online mirror descent and $Lasso-L_1$ norm.
+
+\section{EXPERIMENTS}
+	\textbf{step 1} regard one CPU as one node. and equally distribute the dataset to the m nodes.
+	
+	There are three different topologies.
+	
+	\begin{tikzpicture}[sibling distance=10em,
+  every node/.style = {shape=rectangle, rounded corners,
+    draw, align=center,
+    top color=white, bottom color=blue!20}]]
+  \node {topology}
+    child { node {sparse} }
+    child { node {more closely linked}}
+    child { node {more intense}}
+        ;
+\end{tikzpicture}
+	
 	
 	
 	
