@@ -92,10 +92,41 @@ DOLA take online mirror descent and $Lasso-L_1$ norm.
         ;
 \end{tikzpicture}
 	
+\textbf{step 2}, communication matrix $A_t$. A map for communication.
+
+\textbf{step 3},	
 	
+	openMPI
 	
+\section{Related Work}
+differentially private centralized online learning.
+
+\section{problem setting}
+communication cost is not considered.
+
+{\color{red} any node of the system can measure the regret of the whole system based on its local parameter}
+
+use a time-variant matrix $A_t$ to conduct the communications among nodes.
+
+Each node first gets the exchanged parameters and computes the weighted average of them, then updates the parameter $w_t^i$, finally broadcasts new parameter to its neighbours.
+
+\begin{eqnarray*}
+	\mathcal{G}_i(t) = \{(i,j):a_{ij}(t)>0\}.
+\end{eqnarray*}
+
+\subsection{Differential Privacy Model}
+\textbf{Definition 2}
+Let $\mathcal{A}$ denote differentially private DOLA.
+Let $\mathcal{X}=<x_1^i, x_2^i,..., x_T^i>$ be a sequence of questions taken from an arbitrary node's loocal data source. Let $\mathcal{W}=<w_1^i, w_2^i, ..., w_T^i>$ be a sequence of T outputs of the node and $\mathcal{W} = \mathcal{A}(\mathcal{X})$. Then, our algorithm $\mathcal{A}$ is $\epsilon-$differentially private if given any adjacent question sequnces $\mathcal{X}$ and $\mathcal{X'}$ that differ in one question entry, the following holds:
+\begin{eqnarray*}
+	Pr[\mathcal{A} (\mathcal{X}) \in W] \leq e^{\epsilon}Pr[\mathcal{A} ( \mathcal{X}^{'} ) \in W ]
+\end{eqnarray*}
+
 	
-	
+
+
+
+		
 	
 	
 	

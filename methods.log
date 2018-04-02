@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.28)  1 APR 2018 20:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.28)  2 APR 2018 08:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1569,27 +1569,35 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Missing character: There is no ] in font nullfont!
- [2] (./methods.aux) ) 
+
+Overfull \hbox (9.12329pt too wide) in paragraph at lines 111--112
+[]\OT1/cmr/m/n/10.53937 Each node first gets the ex-changed pa-ram-e-ters and c
+om-putes the weighted
+ []
+
+[2] [3] (./methods.aux) ) 
 Here is how much of TeX's memory you used:
- 25548 strings out of 492990
- 496854 string characters out of 6136334
- 609647 words of memory out of 5000000
- 28637 multiletter control sequences out of 15000+600000
- 535511 words of font info for 43 fonts, out of 8000000 for 9000
+ 25550 strings out of 492990
+ 496891 string characters out of 6136334
+ 611647 words of memory out of 5000000
+ 28639 multiletter control sequences out of 15000+600000
+ 536116 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,8n,63p,10437b,765s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc
-><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/texlive/2017/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2017/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2017/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b>
-Output written on methods.pdf (2 pages, 74168 bytes).
+<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.
+ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on methods.pdf (3 pages, 110382 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  35 words of extra memory for PDF output out of 10000 (max. 10000000)
 
