@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.28)  2 APR 2018 10:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.28)  3 APR 2018 19:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1550,54 +1550,28 @@ e
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 18.
  ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for C70+rm on input line 23.
+LaTeX Font Info:    Try loading font information for C70+rm on input line 29.
 
 (c:/texlive/2017/texmf-dist/tex/latex/ctex/fd/c70rm.fd
 File: c70rm.fd 2017/08/07 v2.4.10 Chinese font definition (CTEX)
-)
-Missing character: There is no ] in font nullfont!
-LaTeX Font Info:    Try loading font information for U+msa on input line 77.
-
-(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 77.
-
-(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-]
-Missing character: There is no ] in font nullfont!
-
-Overfull \hbox (9.12329pt too wide) in paragraph at lines 111--112
-[]\OT1/cmr/m/n/10.53937 Each node first gets the ex-changed pa-ram-e-ters and c
-om-putes the weighted
- []
-
-[2] [3] (./methods.aux) ) 
+] (./methods.aux) ) 
 Here is how much of TeX's memory you used:
- 25550 strings out of 492990
- 496891 string characters out of 6136334
- 611647 words of memory out of 5000000
- 28639 multiletter control sequences out of 15000+600000
- 536116 words of font info for 45 fonts, out of 8000000 for 9000
+ 25403 strings out of 492990
+ 493346 string characters out of 6136334
+ 606647 words of memory out of 5000000
+ 28506 multiletter control sequences out of 15000+600000
+ 532329 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,63p,10437b,765s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.
-ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2017/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2017/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
-pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><c:/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on methods.pdf (3 pages, 110382 bytes).
+ 55i,5n,54p,10437b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c
+:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsun.ttc><c:/Windows/fonts/simsu
+n.ttc><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on methods.pdf (1 page, 27845 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 40 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 35 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
